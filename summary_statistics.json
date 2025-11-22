@@ -1,0 +1,13 @@
+{
+  "Total_sources": 30,
+  "Optical_detected": "30",
+  "Infrared_detected": "30",
+  "Mean_optical_snr": 4.141102589307421,
+  "Median_optical_std": 0.13120843749870675,
+  "Variable_types": {
+    "linear_trend": 21,
+    "stable": 4,
+    "low_variable": 4,
+    "high_variable": 1
+  }
+}
