@@ -1,0 +1,188 @@
+[2025-11-21 23:24:42] [INFO] 
+================================================================================
+[2025-11-21 23:24:42] [INFO] COMPLETE_ANALYSIS_FRAMEWORK TEST SUITE
+[2025-11-21 23:24:42] [INFO] ================================================================================
+[2025-11-21 23:24:42] [INFO] ================================================================================
+[2025-11-21 23:24:42] [INFO] TEST 1: VariabilityAnalyzer
+[2025-11-21 23:24:42] [INFO] ================================================================================
+[2025-11-21 23:24:42] [TEST] 
+  Testing stable variability...
+[2025-11-21 23:24:42] [INFO]     • n_obs: 50
+[2025-11-21 23:24:42] [INFO]     • mean_mag: 18.497
+[2025-11-21 23:24:42] [INFO]     • std_mag: 0.0218
+[2025-11-21 23:24:42] [INFO]     • SNR: 0.38
+[2025-11-21 23:24:42] [INFO]     • MAD: 0.0120
+[2025-11-21 23:24:42] [INFO]     • Range: 0.107 mag
+[2025-11-21 23:24:42] [INFO]     • Trend: slope=0.000054 ± 0.000011, p=0.0000
+[2025-11-21 23:24:42] [INFO]     • Classification: linear_trend
+[2025-11-21 23:24:42] [TEST] 
+  Testing periodic variability...
+[2025-11-21 23:24:42] [INFO]     • n_obs: 50
+[2025-11-21 23:24:42] [INFO]     • mean_mag: 18.552
+[2025-11-21 23:24:42] [INFO]     • std_mag: 0.2375
+[2025-11-21 23:24:42] [INFO]     • SNR: 4.47
+[2025-11-21 23:24:42] [INFO]     • MAD: 0.1943
+[2025-11-21 23:24:42] [INFO]     • Range: 0.784 mag
+[2025-11-21 23:24:42] [INFO]     • Trend: slope=-0.000530 ± 0.000103, p=0.0000
+[2025-11-21 23:24:42] [INFO]     • Classification: linear_trend
+[2025-11-21 23:24:42] [TEST] 
+  Testing irregular variability...
+[2025-11-21 23:24:42] [INFO]     • n_obs: 50
+[2025-11-21 23:24:42] [INFO]     • mean_mag: 19.288
+[2025-11-21 23:24:42] [INFO]     • std_mag: 0.3102
+[2025-11-21 23:24:42] [INFO]     • SNR: 5.45
+[2025-11-21 23:24:42] [INFO]     • MAD: 0.1342
+[2025-11-21 23:24:42] [INFO]     • Range: 1.323 mag
+[2025-11-21 23:24:42] [INFO]     • Trend: slope=0.001631 ± 0.000120, p=0.0000
+[2025-11-21 23:24:42] [INFO]     • Classification: linear_trend
+[2025-11-21 23:24:42] [TEST] 
+  Testing burst variability...
+[2025-11-21 23:24:42] [INFO]     • n_obs: 50
+[2025-11-21 23:24:42] [INFO]     • mean_mag: 18.487
+[2025-11-21 23:24:42] [INFO]     • std_mag: 0.0802
+[2025-11-21 23:24:42] [INFO]     • SNR: 1.54
+[2025-11-21 23:24:42] [INFO]     • MAD: 0.0423
+[2025-11-21 23:24:42] [INFO]     • Range: 0.344 mag
+[2025-11-21 23:24:42] [INFO]     • Trend: slope=-0.000107 ± 0.000044, p=0.0198
+[2025-11-21 23:24:42] [INFO]     • Classification: linear_trend
+[2025-11-21 23:24:42] [TEST] 
+  Testing linear_trend variability...
+[2025-11-21 23:24:42] [INFO]     • n_obs: 50
+[2025-11-21 23:24:42] [INFO]     • mean_mag: 18.557
+[2025-11-21 23:24:42] [INFO]     • std_mag: 0.0569
+[2025-11-21 23:24:42] [INFO]     • SNR: 1.05
+[2025-11-21 23:24:42] [INFO]     • MAD: 0.0465
+[2025-11-21 23:24:42] [INFO]     • Range: 0.262 mag
+[2025-11-21 23:24:42] [INFO]     • Trend: slope=0.000277 ± 0.000024, p=0.0000
+[2025-11-21 23:24:42] [INFO]     • Classification: linear_trend
+[2025-11-21 23:24:42] [SUCCESS] 
+✓ VariabilityAnalyzer tests PASSED
+[2025-11-21 23:24:42] [INFO] 
+================================================================================
+[2025-11-21 23:24:42] [INFO] TEST 2: LightcurveComparison
+[2025-11-21 23:24:42] [INFO] ================================================================================
+[2025-11-21 23:24:42] [TEST] 
+  Generating multi-wavelength lightcurves...
+[2025-11-21 23:24:42] [INFO]     • ZTF: 80 observations, 492.7 day baseline
+[2025-11-21 23:24:42] [INFO]     • NEOWISE W1: 60 observations
+[2025-11-21 23:24:42] [INFO]     • NEOWISE W2: 60 observations
+[2025-11-21 23:24:42] [INFO] 
+  Time overlap analysis:
+[2025-11-21 23:24:42] [INFO]     • Overlap range: 59001.0 - 59365.4
+[2025-11-21 23:24:42] [INFO]     • Duration: 364.4 days
+[2025-11-21 23:24:42] [INFO] 
+  Variability correlation:
+[2025-11-21 23:24:42] [INFO]     • Optical-IR correlation: 0.392
+[2025-11-21 23:24:42] [SUCCESS] 
+✓ LightcurveComparison tests PASSED
+[2025-11-21 23:24:42] [INFO] 
+================================================================================
+[2025-11-21 23:24:42] [INFO] TEST 3: YSOVariabilityClassifier - Feature Extraction
+[2025-11-21 23:24:42] [INFO] ================================================================================
+[2025-11-21 23:24:42] [TEST] 
+  Extracting features from mock lightcurves...
+[2025-11-21 23:24:42] [INFO] 
+  STABLE - Extracted 9 features:
+[2025-11-21 23:24:42] [INFO]     • opt_std: 0.0190
+[2025-11-21 23:24:42] [INFO]     • time_baseline: 471.3396
+[2025-11-21 23:24:42] [INFO]     • opt_mean_mag: 18.4972
+[2025-11-21 23:24:42] [INFO]     • cadence: 7.9888
+[2025-11-21 23:24:42] [INFO]     • opt_snr: 0.3592
+[2025-11-21 23:24:42] [INFO]     • obs_rate: 0.1273
+[2025-11-21 23:24:42] [INFO]     • ir_w1_std: 0.1955
+[2025-11-21 23:24:42] [INFO]     • ir_w2_std: 0.1551
+[2025-11-21 23:24:42] [INFO]     • ir_opt_ratio: 10.2772
+[2025-11-21 23:24:42] [INFO] 
+  IRREGULAR - Extracted 9 features:
+[2025-11-21 23:24:42] [INFO]     • opt_std: 0.2556
+[2025-11-21 23:24:42] [INFO]     • time_baseline: 485.5830
+[2025-11-21 23:24:42] [INFO]     • opt_mean_mag: 18.6093
+[2025-11-21 23:24:42] [INFO]     • cadence: 8.2302
+[2025-11-21 23:24:42] [INFO]     • opt_snr: 4.6892
+[2025-11-21 23:24:42] [INFO]     • obs_rate: 0.1236
+[2025-11-21 23:24:42] [INFO]     • ir_w1_std: 0.2007
+[2025-11-21 23:24:42] [INFO]     • ir_w2_std: 0.1494
+[2025-11-21 23:24:42] [INFO]     • ir_opt_ratio: 0.7853
+[2025-11-21 23:24:42] [INFO] 
+  BURST - Extracted 9 features:
+[2025-11-21 23:24:42] [INFO]     • opt_std: 0.0844
+[2025-11-21 23:24:42] [INFO]     • time_baseline: 491.7972
+[2025-11-21 23:24:42] [INFO]     • opt_mean_mag: 18.4794
+[2025-11-21 23:24:42] [INFO]     • cadence: 8.3355
+[2025-11-21 23:24:42] [INFO]     • opt_snr: 1.4343
+[2025-11-21 23:24:42] [INFO]     • obs_rate: 0.1220
+[2025-11-21 23:24:42] [INFO]     • ir_w1_std: 0.2078
+[2025-11-21 23:24:42] [INFO]     • ir_w2_std: 0.1514
+[2025-11-21 23:24:42] [INFO]     • ir_opt_ratio: 2.4633
+[2025-11-21 23:24:42] [SUCCESS] 
+✓ Feature extraction tests PASSED
+[2025-11-21 23:24:42] [INFO] 
+================================================================================
+[2025-11-21 23:24:42] [INFO] TEST 4: YSOVariabilityClassifier - Predictions
+[2025-11-21 23:24:42] [INFO] ================================================================================
+[2025-11-21 23:24:42] [TEST] 
+  Testing classification on diverse lightcurves...
+[2025-11-21 23:24:42] [INFO]   • stable: stable (confidence: 0.90)
+[2025-11-21 23:24:42] [INFO]   • periodic: accretor (confidence: 0.60)
+[2025-11-21 23:24:42] [INFO]   • irregular: accretor (confidence: 0.60)
+[2025-11-21 23:24:42] [INFO]   • burst: stable (confidence: 0.90)
+[2025-11-21 23:24:42] [INFO]   • linear_trend: eruptive (confidence: 0.70)
+[2025-11-21 23:24:42] [SUCCESS] 
+✓ Prediction tests PASSED
+[2025-11-21 23:24:42] [INFO] 
+================================================================================
+[2025-11-21 23:24:42] [INFO] TEST 5: LightcurvePlotter
+[2025-11-21 23:24:42] [INFO] ================================================================================
+[2025-11-21 23:24:42] [TEST] 
+  Generating test plots...
+[2025-11-21 23:24:43] [INFO]   ✓ Single lightcurve plot: framework_test_results/test_single_lightcurve.png
+[2025-11-21 23:24:43] [INFO]   ✓ Multi-wavelength plot: framework_test_results/test_multi_wavelength.png
+[2025-11-21 23:24:43] [SUCCESS] 
+✓ Plotter tests PASSED
+[2025-11-21 23:24:43] [INFO] 
+================================================================================
+[2025-11-21 23:24:43] [INFO] TEST 6: AnalysisReport
+[2025-11-21 23:24:43] [INFO] ================================================================================
+[2025-11-21 23:24:43] [TEST] 
+  Generating analysis reports...
+[2025-11-21 23:24:43] [INFO]   ✓ Reports saved to framework_test_results/reports
+[2025-11-21 23:24:43] [SUCCESS] 
+✓ AnalysisReport tests PASSED
+[2025-11-21 23:24:43] [INFO] 
+================================================================================
+[2025-11-21 23:24:43] [INFO] TEST 7: End-to-End Pipeline
+[2025-11-21 23:24:43] [INFO] ================================================================================
+[2025-11-21 23:24:43] [TEST] 
+  Running complete analysis pipeline on 30 sources...
+[2025-11-21 23:24:43] [INFO] 
+  Pipeline Results:
+[2025-11-21 23:24:43] [INFO]     • Total sources: 30
+[2025-11-21 23:24:43] [INFO]     • Optical detections: 30
+[2025-11-21 23:24:43] [INFO]     • Infrared detections: 30
+[2025-11-21 23:24:43] [INFO]     • Mean SNR: 4.14
+[2025-11-21 23:24:43] [INFO]     • Variability types:
+[2025-11-21 23:24:43] [INFO]       - stable: 4
+[2025-11-21 23:24:43] [INFO]       - linear_trend: 21
+[2025-11-21 23:24:43] [INFO]       - high_variable: 1
+[2025-11-21 23:24:43] [INFO]       - low_variable: 4
+[2025-11-21 23:24:43] [INFO]     • Quality distribution:
+[2025-11-21 23:24:43] [INFO]       - high: 9
+[2025-11-21 23:24:43] [INFO]       - medium: 8
+[2025-11-21 23:24:43] [INFO]       - low: 13
+[2025-11-21 23:24:43] [SUCCESS] 
+✓ End-to-End Pipeline tests PASSED
+[2025-11-21 23:24:43] [INFO] 
+================================================================================
+[2025-11-21 23:24:43] [INFO] TEST SUMMARY
+[2025-11-21 23:24:43] [INFO] ================================================================================
+[2025-11-21 23:24:43] [INFO]   VariabilityAnalyzer: ✓ PASSED
+[2025-11-21 23:24:43] [INFO]   LightcurveComparison: ✓ PASSED
+[2025-11-21 23:24:43] [INFO]   Classifier Features: ✓ PASSED
+[2025-11-21 23:24:43] [INFO]   Classifier Predictions: ✓ PASSED
+[2025-11-21 23:24:43] [INFO]   LightcurvePlotter: ✓ PASSED
+[2025-11-21 23:24:43] [INFO]   AnalysisReport: ✓ PASSED
+[2025-11-21 23:24:43] [INFO]   End-to-End Pipeline: ✓ PASSED
+[2025-11-21 23:24:43] [INFO] 
+Total: 7/7 tests passed
+[2025-11-21 23:24:43] [SUCCESS] 
+✓ ALL TESTS PASSED - FRAMEWORK IS OPERATIONAL
